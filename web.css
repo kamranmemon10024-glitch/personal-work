@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn {
+    background: #2b7cff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text span {
+    color: blue;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero-img img {
+    width: 450px;
+    height: 320px;
+}
+
+.companies {
+    text-align: center;
+    padding: 40px;
+}
+
+.companies span {
+    color: #2b7cff;
+}
+
+.services {
+    text-align: center;
+    padding: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 400px;
+}
+
+
+@media(max-width:768px) {
+
+    .hero,
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.text {
+    color: #ffc107;
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 30px;
+}
+
+.text-1 {
+    font-size: 35px;
+}
+
+.card .img {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,42 @@
+body {
+text-align: center;
+}
+
+h1 {
+background-color: DarkCyan;
+font-weight: bolder;
+font-style: italic;
+text-transform: uppercase;
+text-decoration: underline;
+line-height: 1.4em;
+
+}
+h2 {
+background-color: #ee3e80;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+text-align: left;
+}
+
+p {
+background-color: rgb(157, 202, 24);
+opacity: 0.7;
+background-color:#9dca18(0,100%,100%,0.5);
+word-spacing: 1em;
+text-shadow: 1px 2px #000000;}
+
+
+
+.intro {
+font-family: Arial, Verdana, sans-serif;}
+.credits {
+font-family: "Courier New", Courier,
+monospace;}
+.h1{
+    font-size: 200%;
+    font-size: 1.3mm;
+}
+.h2{
+    background-color: rgb(61, 202, 202);
+}
+

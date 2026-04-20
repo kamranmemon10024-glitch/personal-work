@@ -1,0 +1,30 @@
+#section1{
+    height: 200px;
+    border: 5px solid red; 
+}
+* {
+font-family: Arial, Verdana, sans-serif;}
+h1 {
+font-family: "Courier New", monospace;}
+i {
+color: green;}
+i {
+color: violet;}
+b {
+color: pink;}
+p b {
+color:blue (255, 0, 60) !important;}
+p b {
+color: blue;}
+p#intro {
+font-size: 100%;}
+p {
+font-size: 75%;}
+body {
+font-family: Arial, Verdana, sans-serif;
+color: #665544;
+padding: 10px;}
+.page {
+border: 1px solid #000000;
+background-color: #efefef;
+padding: inherit;} 

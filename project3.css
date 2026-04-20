@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  padding: 40px;
+}
+
+.logo {
+  color: orange;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  width: 45%;
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+.text{
+    color: blue;
+}

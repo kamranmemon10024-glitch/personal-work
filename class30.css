@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-family: Saira Stencil;
+}
+.box{
+    width: 400px;
+    background-color: bisque;
+    height: 180px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+ @media screen and ( max-width:1200px){
+   .container{
+    border: 1px solid green;
+    flex-direction: row;
+   } 
+    
+ }
+ @media screen and ( max-width:980px){
+   .container{
+    border: 1px solid red;
+    flex-direction: row;
+   } 
+    
+ }
+ @media screen and ( max-width:790px){
+   .container{
+    border: 1px solid blue;
+    flex-direction: column;
+   } 
+    
+ }
+ @media screen and ( max-width:480px){
+   .container{
+    border: 1px solid orange;
+    flex-direction: column;
+   } 
+    
+ }
